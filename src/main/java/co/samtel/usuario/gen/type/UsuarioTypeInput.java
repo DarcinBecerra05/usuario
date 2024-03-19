@@ -11,8 +11,10 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;
 import com.fasterxml.jackson.annotation.JsonTypeName;
 
+
+
 @JsonTypeName("UsuarioTypeInput")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2024-03-18T12:30:05.065286400-05:00[America/Bogota]", comments = "Generator version: 7.4.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2024-03-19T10:45:11.265658500-05:00[America/Bogota]", comments = "Generator version: 7.4.0")
 public class UsuarioTypeInput   {
   private @Valid String name;
   private @Valid String lastname;
@@ -85,10 +87,7 @@ public class UsuarioTypeInput   {
     this.createat = createat;
   }
 
-  /**
-   * minimum: 0
-   * maximum: 1
-   **/
+
   public UsuarioTypeInput tblAcept(BigDecimal tblAcept) {
     this.tblAcept = tblAcept;
     return this;
@@ -105,8 +104,6 @@ public class UsuarioTypeInput   {
     this.tblAcept = tblAcept;
   }
 
-  /**
-   **/
   public UsuarioTypeInput tblIdnumber(String tblIdnumber) {
     this.tblIdnumber = tblIdnumber;
     return this;
@@ -123,8 +120,6 @@ public class UsuarioTypeInput   {
     this.tblIdnumber = tblIdnumber;
   }
 
-  /**
-   **/
   public UsuarioTypeInput tblIdtblDocumenttype(BigDecimal tblIdtblDocumenttype) {
     this.tblIdtblDocumenttype = tblIdtblDocumenttype;
     return this;
@@ -141,8 +136,7 @@ public class UsuarioTypeInput   {
     this.tblIdtblDocumenttype = tblIdtblDocumenttype;
   }
 
-  /**
-   **/
+
   public UsuarioTypeInput tblIdtblRole(BigDecimal tblIdtblRole) {
     this.tblIdtblRole = tblIdtblRole;
     return this;
@@ -159,8 +153,7 @@ public class UsuarioTypeInput   {
     this.tblIdtblRole = tblIdtblRole;
   }
 
-  /**
-   **/
+
   public UsuarioTypeInput tblIdtblUserdetails(Integer tblIdtblUserdetails) {
     this.tblIdtblUserdetails = tblIdtblUserdetails;
     return this;
@@ -177,8 +170,7 @@ public class UsuarioTypeInput   {
     this.tblIdtblUserdetails = tblIdtblUserdetails;
   }
 
-  /**
-   **/
+
   public UsuarioTypeInput tblPassword(String tblPassword) {
     this.tblPassword = tblPassword;
     return this;
@@ -195,8 +187,7 @@ public class UsuarioTypeInput   {
     this.tblPassword = tblPassword;
   }
 
-  /**
-   **/
+
   public UsuarioTypeInput tblPhone(String tblPhone) {
     this.tblPhone = tblPhone;
     return this;
@@ -213,10 +204,7 @@ public class UsuarioTypeInput   {
     this.tblPhone = tblPhone;
   }
 
-  /**
-   * minimum: 0
-   * maximum: 1
-   **/
+
   public UsuarioTypeInput tblStatus(BigDecimal tblStatus) {
     this.tblStatus = tblStatus;
     return this;
@@ -233,8 +221,7 @@ public class UsuarioTypeInput   {
     this.tblStatus = tblStatus;
   }
 
-  /**
-   **/
+
   public UsuarioTypeInput tblUpdateAt(LocalDate tblUpdateAt) {
     this.tblUpdateAt = tblUpdateAt;
     return this;
@@ -251,8 +238,7 @@ public class UsuarioTypeInput   {
     this.tblUpdateAt = tblUpdateAt;
   }
 
-  /**
-   **/
+
   public UsuarioTypeInput tblImagendocument(String tblImagendocument) {
     this.tblImagendocument = tblImagendocument;
     return this;
@@ -269,8 +255,7 @@ public class UsuarioTypeInput   {
     this.tblImagendocument = tblImagendocument;
   }
 
-  /**
-   **/
+
   public UsuarioTypeInput tblMail(String tblMail) {
     this.tblMail = tblMail;
     return this;
@@ -287,8 +272,7 @@ public class UsuarioTypeInput   {
     this.tblMail = tblMail;
   }
 
-  /**
-   **/
+
   public UsuarioTypeInput tblPhonealt(String tblPhonealt) {
     this.tblPhonealt = tblPhonealt;
     return this;
@@ -305,8 +289,7 @@ public class UsuarioTypeInput   {
     this.tblPhonealt = tblPhonealt;
   }
 
-  /**
-   **/
+
   public UsuarioTypeInput tblPhoto(String tblPhoto) {
     this.tblPhoto = tblPhoto;
     return this;
@@ -381,10 +364,7 @@ public class UsuarioTypeInput   {
     return sb.toString();
   }
 
-  /**
-   * Convert the given object to string with each line indented by 4 spaces
-   * (except the first line).
-   */
+
   private String toIndentedString(Object o) {
     if (o == null) {
       return "null";

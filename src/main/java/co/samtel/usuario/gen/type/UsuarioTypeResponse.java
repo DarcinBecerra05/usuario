@@ -13,20 +13,17 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 
 
 @JsonTypeName("UsuarioTypeResponse")
-@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2024-03-18T12:30:05.065286400-05:00[America/Bogota]", comments = "Generator version: 7.4.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2024-03-19T10:45:11.265658500-05:00[America/Bogota]", comments = "Generator version: 7.4.0")
 public class UsuarioTypeResponse   {
   private @Valid String name;
   private @Valid String lastname;
   private @Valid LocalDate createat;
 
-  /**
-   **/
   public UsuarioTypeResponse name(String name) {
     this.name = name;
     return this;
   }
 
-  
   @JsonProperty("name")
   public String getName() {
     return name;
@@ -37,8 +34,7 @@ public class UsuarioTypeResponse   {
     this.name = name;
   }
 
-  /**
-   **/
+
   public UsuarioTypeResponse lastname(String lastname) {
     this.lastname = lastname;
     return this;
@@ -55,8 +51,7 @@ public class UsuarioTypeResponse   {
     this.lastname = lastname;
   }
 
-  /**
-   **/
+
   public UsuarioTypeResponse createat(LocalDate createat) {
     this.createat = createat;
     return this;
@@ -105,10 +100,6 @@ public class UsuarioTypeResponse   {
     return sb.toString();
   }
 
-  /**
-   * Convert the given object to string with each line indented by 4 spaces
-   * (except the first line).
-   */
   private String toIndentedString(Object o) {
     if (o == null) {
       return "null";

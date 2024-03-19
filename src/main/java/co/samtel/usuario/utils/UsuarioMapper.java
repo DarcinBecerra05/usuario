@@ -19,8 +19,6 @@ public class UsuarioMapper {
     public UsuarioTypeResponse usuarioEntityToType (Usuario usuario){
         return new ModelMapper().map(usuario, UsuarioTypeResponse.class);
     }
-
-    //---------------------Mapeo para listar todos los usuarios-------------------------------------
     public List<UsuarioTypeResponse> usuariosTypeListEntityToTypeResponse(List<Usuario> usuarios){
         List<UsuarioTypeResponse> responses = new ArrayList<>();
 
